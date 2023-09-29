@@ -1,0 +1,70 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.main{
+    position: relative;
+    width: 50vw;
+    height: 50vw;
+    align-items: center;
+    background-color: rgb(158, 200, 186);
+}
+.sub{
+    position: absolute;
+    /* width: 8%;
+    height: 8%; */
+    /* border-radius: 100%;
+    background-color: rgb(58, 18, 18); */
+    animation-name: anime3;
+    animation-duration: 3s;
+    animation-iteration-count: 5;
+}
+.chees{
+    position: absolute;
+    animation-name: anime4;
+    animation-duration: 3s;
+    animation-iteration-count: 5;
+}
+@keyframes anime3{
+    0%{
+        top: 0%;
+        left: 0%;
+    }
+    25%{
+        top: 80%;
+        left: 0%;
+    }
+    50%{
+        top: 80%;
+        left: 80%;
+    }
+    75%{
+        top: 5%;
+        left: 80%;
+    }100%{
+        top: 0%;
+        left: 0%;
+    }
+}
+@keyframes anime4{
+    0%{
+        top: 5%;
+        left: 5%;
+    }
+    25%{
+        top: 85%;
+        left: 5%;
+    }
+    50%{
+        top: 85%;
+        left: 85%;
+    }
+    75%{
+        top: 0%;
+        left: 85%;
+    }100%{
+        top: 5%;
+        left: 5%;
+    }
+}

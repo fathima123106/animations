@@ -25,9 +25,9 @@
     transition: transform 4s ease-out 0s;
 }
 .box:hover{
-    background-color: rgb(6, 66, 87);
-    color: white;
-    /* transform: rotate(180deg); */
+    /* background-color: rgb(6, 66, 87);
+    color: white; */
+    transform: rotate(180deg);
     transform: skew(30deg);
     transform:skew(-30deg);
     transform: scale(3);
@@ -37,6 +37,10 @@
     transform: translateY(60px);
     transform: translateY(-60px);
     transform: translate(80px,40px);
+    transform: translateZ(90px,90PX);
+    /* transform: matrix3d(4px); */
+    transform: rotateX(50deg);
+
 }
 /* .box:active{
     width: 200px;
